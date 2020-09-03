@@ -1,6 +1,6 @@
 ## FYI
 
-This is a version 1 of Email tribe project, a niche email job board for email professionals. The project's code base has been migrated and improved, new version in in email-tribe repo. The remaning part to be migrated is the Job Post Wizard, a multistep Vue.js based workflow which allows to create a job, preview, select the payment amound and create a new job.
+This is a version 1 of Email tribe project, a niche email job board for email professionals. The project's code base has been migrated and improved, the new version is in the email-tribe repo. The remaining part to be migrated is the Job Post Wizard, a multistep Vue.js based workflow which allows to create a job, preview it, select the payment amound and submit for admin's approval.
 
 For the wizard code, please refer to the following: old-email-tribe/resources/js/components/Jobs/Wizard/
 
