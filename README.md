@@ -1,11 +1,8 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## FYI
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This is a version 1 of Email tribe project, a niche email job board for email professionals. The project's code base has been migrated and improved, new version in in email-tribe repo. The remaning part to be migrated is the Job Post Wizard, a multistep Vue.js based workflow which allows to create a job, preview, select the payment amound and create a new job.
+
+For the wizard code, please refer to the following: old-email-tribe/resources/js/components/Jobs/Wizard/
 
 ## About Laravel
 
