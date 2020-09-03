@@ -1,0 +1,24 @@
+models:
+  Job:
+    title: string
+    description: longtext
+    type: string
+    location: string
+    link_to_apply: string
+    category_id: id
+    tag_id: id
+    salary: string nullable
+
+  Category:
+    name: string
+
+  Tag:
+    name: string
+
+controllers:
+  Job:
+    index:
+      query: all
+      render: pages.jobs.index with:jobs
+    show:
+      render: pages.jobs.show with:jobs

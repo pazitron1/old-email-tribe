@@ -1,0 +1,19 @@
+created:
+    - database/migrations/2020_05_20_121813_create_jobs_table.php
+    - database/migrations/2020_05_20_121814_create_categories_table.php
+    - database/migrations/2020_05_20_121815_create_tags_table.php
+    - app/Job.php
+    - app/Category.php
+    - app/Tag.php
+    - database/factories/JobFactory.php
+    - database/factories/CategoryFactory.php
+    - database/factories/TagFactory.php
+    - app/Http/Controllers/JobController.php
+    - tests/Feature/Http/Controllers/JobControllerTest.php
+updated:
+    - routes/web.php
+models:
+    User: {  }
+    Job: { title: string, description: longtext, type: string, location: string, link_to_apply: string, category_id: id, tag_id: id, salary: 'string nullable' }
+    Category: { name: string }
+    Tag: { name: string }
